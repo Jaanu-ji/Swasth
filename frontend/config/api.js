@@ -7,7 +7,7 @@ import axios from 'axios';
  * - Apne PC ka IPv4 address use karo
  * - Example: http://192.168.1.5:3000
  */
-const API_BASE_URL = 'http://192.168.29.192:3000/api'; // ⬅️ APNA IP DAALO
+const API_BASE_URL = 'http://10.131.20.64:3000/api'; // ⬅️ APNA IP DAALO
 
 const api = axios.create({
   baseURL: API_BASE_URL,

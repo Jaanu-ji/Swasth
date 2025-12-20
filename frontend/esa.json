@@ -1,0 +1,15 @@
+{
+  "cli": {
+    "version": ">= 16.26.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "appRoot": "frontend"
+    },
+    "production": {
+      "autoIncrement": true,
+      "appRoot": "frontend"
+    }
+  }
+}

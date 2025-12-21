@@ -1,0 +1,21 @@
+# Ignore backend completely
+backend/
+
+# Ignore node modules
+node_modules/
+**/node_modules/
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore docs and misc
+docs/
+*.md
+
+# Ignore Expo cache
+.expo/
+.expo-shared/
+
+# Ignore logs
+*.log

@@ -3,7 +3,6 @@
     "name": "Swasth",
     "slug": "swasth",
     "version": "1.0.0",
-    "sdkVersion": "51.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "swasth",
@@ -13,25 +12,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.swasth.app"
-    },
+    "assetBundlePatterns": ["**/*"],
     "android": {
+      "package": "com.swasth.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.swasth.app",
-      "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "permissions": ["android.permission.RECORD_AUDIO"]
     },
     "plugins": [
       "expo-router",
@@ -45,12 +33,9 @@
       "expo-font"
     ],
     "extra": {
-      "router": {
-        "origin": false
-      },
+      "router": { "origin": false },
       "eas": {
-        "projectId": "0ebe9e66-e85c-4a62-abbe-34d9689d0d64",
-        "appRoot": "frontend"
+        "projectId": "0ebe9e66-e85c-4a62-abbe-34d9689d0d64"
       }
     },
     "owner": "shahzebansari1996"

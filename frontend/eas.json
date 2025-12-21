@@ -1,7 +1,9 @@
 {
   "cli": {
-    "version": ">= 16.26.0"
+    "version": ">= 16.26.0",
+    "appVersionSource": "remote"
   },
+  "appRoot": "frontend",
   "build": {
     "preview": {
       "distribution": "internal"
